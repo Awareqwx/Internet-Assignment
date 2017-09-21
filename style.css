@@ -1,0 +1,241 @@
+.darkbluetext{
+    color: #3C5188;
+}
+
+.lightbluetext{
+    color: #00899B;
+}
+
+.cyantext{
+    color: #00D8DF;
+}
+
+.redtext{
+    color: red;
+}
+
+.boldtext{
+    font-weight: bold;
+}
+
+*{
+    font-family: Arial;
+}
+
+.wrapper{
+    background: white;
+    background: -webkit-linear-gradient(lightgray, #FFFFFE, #FFFEFF, #FFFFFF);
+    background: -o-linear-gradient(lightgray, #FFFFFE, #FFFEFF, #FFFFFF);
+    background: -moz-linear-gradient(lightgray, #FFFFFE, #FFFEFF, #FFFFFF);
+    background: linear-gradient(lightgray, #FFFFFE, #FFFEFF, #FFFFFF);
+    width: 970px;
+}
+
+.header{
+    background-color: white;
+}
+
+.header img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 0px;
+    vertical-align: middle;
+    position: relative;
+    top: 15px;
+}
+
+.header h1{
+    display: inline-block;
+    margin: 0px;
+    vertical-align: bottom;
+    color: #4B4B4B;
+    font-weight: normal;
+    font-size: 30pt;
+}
+
+.header h2{
+    margin: 0px;
+    color: white;
+    font-weight: normal;
+    font-size: 20pt;
+    padding: 10px;
+    background: #265175;
+    background: -webkit-linear-gradient(#4D649E, #5B83BE, #4D649E);
+    background: -o-linear-gradient(#4D649E, #5B83BE, #4D649E);
+    background: -moz-linear-gradient(#4D649E, #5B83BE, #4D649E);
+    background: linear-gradient(#4D649E, #5B83BE, #4D649E);
+}
+
+.sidebar{
+    display: inline-block;
+    width: 200px;
+}
+
+.sidebar h4{
+    margin-bottom: 10px;
+}
+
+.sidebar p{
+    font-size: 10pt;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.videobutton{
+    background-color: #4C74BB;
+    border-radius: 6px;
+    border-color: #4C74BB;
+    box-shadow: 1 1 1 black;
+    color: white;
+    height: 30px;
+    width: 190px;
+    margin: 0 5px;
+}
+
+.resourcesbutton{
+    background-color: orange;
+    border-radius: 6px;
+    border-color: orange;
+    box-shadow: 1 1 1 black;
+    color: white;
+    height: 30px;
+    width: 190px;
+    margin: 5px;
+}
+
+.theinternet{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border: solid darkgray;
+    border-width: 0px 0px 1px 0px;
+}
+
+.narcissism{
+    background: url("Assets/ad_background.png");
+    text-align: center;
+    padding: 10px 5px 20px;
+}
+
+.narcissism .decographic{
+    width: 100px;
+    height: 150px;
+}
+
+.narcissism h3{
+    color: white;
+    font-weight: normal;
+    font-size: 17pt;
+    margin: 10px;
+}
+
+.narcissism button{
+    background-color: #07BED6;
+    border-radius: 6px;
+    border-color: #07BED6;
+    box-shadow: 1 1 1 black;
+    color: white;
+    height: 27px;
+    width: 170px;
+    margin: 5px;
+}
+
+.narcissism .arrows{
+    width: 10px;
+    height: 5px;
+}
+
+.maincontent{
+    display: inline-block;
+    width: 730px;
+    vertical-align: top;
+    text-align: center;
+    margin: 15px;
+}
+
+.maincontent img{
+    width: 35%;
+}
+
+.maincontent h3, .maincontent p, .maincontent li{
+    text-align: left;
+}
+
+.maincontent li{
+    font-size: 10pt;
+    margin: 5px;
+}
+
+.subheader{
+    border: solid darkgray;
+    border-width: 0 0 1px 0;
+    height: 50px;
+    text-align: left;
+}
+
+.subheader a{
+    text-decoration: none;
+}
+
+.subheader img{
+    width: 20px;
+    height: 20px;
+}
+
+.contact{
+    float: right;
+    vertical-align: top;
+    width: 210px;
+    text-align: right;
+}
+
+.contact img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.contact div{
+    margin: 0px;
+    width: 115px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contact div h6{
+    margin: 0px;
+    font-weight: normal;
+    font-size: 6pt;
+}
+
+.contact div h3{
+    margin: 0px;
+}
+
+.bigthree{
+    border: solid #2F76C7;
+    border-width: 5px;
+    text-align: left;
+}
+
+.bigthree img{
+    width: 110px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+.bigthree div{
+    display: inline-block;
+    width: 500px;
+}
+
+.bigthree div p{
+    font-size: 10pt;
+    margin: 5px;
+}
+
+.bigthree div h3{
+    margin: 5px 3px;
+}
