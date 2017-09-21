@@ -239,3 +239,7 @@
 .bigthree div h3{
     margin: 5px 3px;
 }
+
+.bigthree div a {
+    text-decoration: none;
+}
